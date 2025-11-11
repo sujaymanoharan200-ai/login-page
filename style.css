@@ -1,0 +1,119 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url(240_F_253306515_IYhfrZsBbEG2GVhA5YXIgLTPPb6WjRkr.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+.container{
+    color: azure;
+    background-color:red;
+    padding: 30px;
+    margin-top: 5%;
+    border-radius: 3%;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(231, 68, 68);
+    animation: fadeIn;
+    animation-duration:  2s ;
+}
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.container:hover{
+    background-color:rgb(39, 211, 241);
+    box-shadow: 10px 10px 5px rgb(149, 232, 238);
+ }
+
+
+.forgotpage{
+    
+    color: azure;
+    background-color:red;
+    padding: 30px;
+    margin-top: 5%;
+    border-radius: 3%;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgb(236, 61, 61);
+    animation: fadeIn ;
+    animation-duration: 2s;
+}
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.forgotpage:hover{
+    background-color:rgb(39, 211, 241);
+    box-shadow: 10px 10px 5px rgb(75, 247, 247);
+}
+button{
+    background-color: rgb(246, 248, 246);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    border: none;
+    box-shadow: 0 0 10px black;
+    font-size: 80%;
+}
+button:hover{
+    color: azure;
+    background-color: rgb(12, 90, 207);
+}
+h2{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-shadow: 
+                1px 1px 0 hsl(0, 0%, 0%),
+                2px 2px 0 hsl(180, 6%, 16%),
+                3px 3px 0 hsl(180, 5%, 24%);
+    
+
+}
+.input1{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(4, 104, 117, 0.829);
+    border-radius: 5px;
+   font-size: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.input2{
+    width: 90%;
+    padding: 10px;
+    margin-top: -60px;
+    margin-bottom: -1px;
+    border: 2px solid rgb(16, 97, 173);
+    border-radius: 5px;
+   font-size: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    border: none;
+    
+}
